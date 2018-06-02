@@ -1,0 +1,127 @@
+<html> <!---REMEMBER THE DATA IS HARD-CODED. DONT FORGET TO CHANGE IT---->
+<link rel="stylesheet" href="invoice.css">
+<style>
+th, td {
+    border: 1px solid black;
+}
+</style>
+	
+	<head>
+	</head>
+	<body>
+
+<div id="invoiceDetails">
+		<h1>Date: (01/24/2017)</h1>
+		<h1>Ref No.:</h1>
+		<h2>Attention: John Smith<!--this part changes--></h2>
+		<h2>Subject: CCTV Supply<!--this part changes--></h2>
+		<h2>Sir:In response to your request, we are pleased to submit herewith our proposal for the above, subject to the terms and conditions specified hereunder</h2>
+	</div>
+		<div id="systemTable" class="tables">
+			<h3>System, Cable, & Components</h3>
+				<table>
+					<tr>
+						<th class="item">Item</th>
+						<th class="desc">Description</th>
+						<th class="selling">Qty.</th>
+						<th class="selling">Unit</th>
+						<th class="selling">Unit Selling</th>
+						<th class="selling">Ext. Selling</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Dome Camera</td>
+						<td>6</td>
+						<td>unit</td>
+						<td>P2000</td>
+						<td>P5000</td>
+					</tr>
+				</table>
+		</div>
+		
+		<div id="consumablesTable" class="tables">
+		<h3>Consumable Materials</h3>
+			<table>
+				<tr>
+					<th class="item">Item</th>
+					<th class="desc">Description</th>
+					<th class="selling">Qty.</th>
+					<th class="selling">Unit</th>
+					<th class="selling">Unit Selling</th>
+					<th class="selling">Ext. Selling</th>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Installation, Programming Testing, and Commissioning of HD CCTV System</td>
+					<td>1</td>
+					<td>lot</td>
+					<td>P1000</td>
+					<td>P3000</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="laborTable" class="tables">
+		<h3>Labor Costs</h3>
+			<table>
+				<tr>
+					<th class="item">Item</th>
+					<th class="desc">Description</th>
+					<th class="selling">Qty.</th>
+					<th class="selling">Unit</th>
+					<th class="selling">Unit Selling</th>
+					<th class="selling">Ext. Selling</th>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Supports and other Consumables</td>
+					<td>1</td>
+					<td>lot</td>
+					<td>P1000</td>
+					<td>P3000</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="summary">
+		<h3>Summary</h3>
+			<table>
+				<tr>
+					<th class="item">Item</th>
+					<th class="desc">Description</th>
+					<th class="amount">Amount</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>System, Cable, & Components</td>
+					<td>P140,000</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Consumable Materials</td>
+					<td>P100,000</td>
+				</tr>	
+				<tr>
+					<td>3</td>
+					<td>Labor and Engineering</td>
+					<td>P90,000</td>
+				</tr>				
+			</table>
+		
+			<table>
+				<tr>
+					<th id="total">Total Project Cost</th>
+					<td id="amountDue">P200,000</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="terms">
+			<h3>Terms and Conditions</h3>
+			<p>I Payment: 50% Downpayment upon receipt of Purchase Order, 40% Upon Advise of delivery, 10% Upon Completion of the Project</p>
+			<p>II Completion: Approximately 15 Working Days<!--this part changes--></p>
+			<p>III Validity: Fifteen(15) days upon receipt from the date of our proposal</p>
+			<p>IV. Delivery: Immediate if available. Otherwise please allow 30-45 days upon receipt of Downpayment</p>
+			<p>V. Warranty: One(1) Year for Workmanship, One(1) Year for Analog HD CCTV System<!--this part changes--></p>
+	</body>
+</html>	

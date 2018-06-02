@@ -1,0 +1,62 @@
+.desc{
+	width:600px;
+}
+
+.item{
+	width:50px;
+}
+
+.selling{
+	width:100px;
+}
+.amount{
+	width:420px;
+}
+
+body{
+	background-color:#d7dce5;
+}
+
+#total{
+	width:681px;
+
+}
+
+#amountDue{
+	width: 420px;
+	font-weight:bold;
+}
+
+th{
+	height:30px;
+	padding:15px;
+	background-color:2cc36b
+}
+td{
+	padding:15px;
+}
+
+table{
+	border-collapse:collapse;
+	font-family:Sans-serif;
+	
+}
+
+#invoiceDetails{
+	font-family:Sans-serif;
+	font-size:0.5em;
+	margin-bottom:50px;
+	border: 1px solid black;
+	padding-left:20px;
+}
+
+
+h3{
+	font-family:Sans-serif;
+	font-size:1em;
+}
+
+#terms{
+	font-family:Sans-serif;
+	font-size:1em;
+}
