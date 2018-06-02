@@ -1,0 +1,469 @@
+h1#title {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+button#add-order {
+    background-color: cadetblue;
+    cursor: pointer;
+    text-align: center;
+    transition: .3s;
+    padding: 20px;
+    font-family: Sans-serif;
+    font-size: 1em;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 20px;
+    border: none;
+}
+
+button#add-order:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+div#add-order-form {
+    background-color: cadetblue;
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+}
+
+div.overlay {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    font-family: Sans-serif;
+}
+
+button.order-type {
+    border: 2px solid black;
+    width: 350px;
+    background-color: inherit;
+    font-size: 1.3em;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+
+button.order-type:hover {
+    background-color: black;
+    color: cadetblue;
+}
+
+div#select-products {
+    background-color: cadetblue;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    font-family: Sans-serif;
+    display: none;
+}
+
+div#select-products h1 {
+    font-weight: normal;
+}
+
+div#for-products {
+    border: 2px solid black;
+    width: 750px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+input.qty {
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+table#listprods {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+table#listprods, #listprods th, #listprods td {
+    border: solid 1px black;
+}
+
+#listprods th {
+    background-color: #404040;
+    color: white;
+}
+
+#listprods th, #listprods td {
+    padding: 10px;
+}
+
+#listprods td {
+    background-color: lightgray;
+}
+
+button.add-to-cart {
+    border: none;
+    padding: 10px;
+    background-color: #ffa31a;
+    border-radius: 20px;
+    font-weight: 900;
+    width: 150px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button.add-to-cart:hover {
+    background-color: springgreen;
+}
+
+button#to-details {
+    float: right;
+    margin: 20px 40px 40px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 900;
+    padding: 10px;
+    transition: .4s;
+    width: 150px;
+    cursor: pointer;
+}
+
+#to-details:hover {
+    background-color: springgreen;
+}
+
+
+div.errormsg {
+    height: 20px;
+    width: 1200px;
+    background-color: #ff6666;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    font-family: Sans-serif;
+    padding: 10px;
+    font-weight: 700;
+    display: none;
+}
+
+div#input-customer-details {
+    background-color: cadetblue;
+    height: 480px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    font-family: Sans-serif;
+    display: none;
+}
+
+div#input-customer-details input {
+    border: none;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div#input-customer-details textarea {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family: Sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+button#to-confirm, #confirm-order {
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#to-confirm:hover {
+    background-color: springgreen;
+}
+
+div#confirm-window {
+    background-color: cadetblue;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    font-family: Sans-serif;
+    display: none;
+
+}
+
+span.de {
+    font-weight: bold;
+}
+
+table#pr {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#pr th, #pr td {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#pr th {
+    background-color: #4e4a4a;
+    color: white;
+}
+
+
+
+p#totalamount {
+    font-weight: 900;
+}
+
+div#confirm-window h1 {
+    text-align: center;
+}
+
+div#confirm-window p {
+    margin-left: 20px;
+}
+
+div#for-table {
+    overflow: auto;
+}
+
+div.successmsg {
+    height: 20px;
+    width: 1200px;
+    background-color: springgreen;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    font-family: Sans-serif;
+    padding: 10px;
+    font-weight: 700;
+    display: none;
+}
+
+div#for-orders {
+    width: 1000px;
+    margin: 20px;
+}
+
+table#order-table {
+    border-collapse: collapse;
+    font-family: Sans-serif;
+}
+
+table#order-table, table#order-table th,table#order-table td {
+    border: 1px solid black;
+}
+
+table#order-table th,table#order-table td {
+    padding: 10px;
+}
+table#order-table th {
+    background-color: #2f2f2f;
+    color: white;
+    width: 200px;
+}
+
+table#order-table tr.view-details:hover {
+    cursor: pointer;
+    background-color: #8ba8af;
+}
+
+div#choose-package-form {
+    background-color: cadetblue;
+    height: 325px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    display: none;
+    font-family: Sans-serif;
+}
+div#choose-package-form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div#networking-package-form {
+    background-color: cadetblue;
+    height: 375px;
+    width: 30%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    display: none;
+    font-family: Sans-serif;
+    font-size: 1.2em;
+}
+div#networking-package-form input {
+    padding: 7px;
+    border-radius: 7px;
+    width: 40%;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div#networking-package-form p {
+    margin: 3px;
+}
+.next-button-style {
+    margin: 20px 40px 40px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 900;
+    padding: 10px;
+    transition: .4s;
+    width: 150px;
+    cursor: pointer;
+}
+.next-button-style:hover {
+    background-color: springgreen;
+}
+div#networking-package-confirm {
+    background-color: cadetblue;
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    display: none;
+    font-family: Sans-serif;
+}
+div#np-finalize-order {
+    background-color: cadetblue;
+    height: 325px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    display: none;
+    font-family: Sans-serif;
+}
+
+select#pay {
+    width: 240px;
+    padding: 5px;
+    border: none;
+
+}
+
+div.view-order {
+    background-color: cadetblue;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+div.view-order p{
+    margin-left: 20px;
+}
+
+div#shit {
+    height: 800px;
+    width: 1000px;
+    display: none;
+    background-color: red;
+}
+
+div#pullout, div#dr, div#or {
+    background-color: cadetblue;
+    height: 325px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    text-align: center;
+    display: none;
+    font-family: Sans-serif;
+}
+
+input.ins, input.order-no, .date-c, .pulls, .dreceipt,
+.ORor, .ORoff{
+    display: none;
+}

@@ -1,0 +1,124 @@
+body {
+	background-color: #d7dce5;
+	margin:0;
+}
+
+/* i added this */
+h2#greet {
+	font-family: Sans-serif;
+	margin: 0 10px 10px 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+div#left{
+	font-family: Sans-serif;
+}
+div#redirect-section {
+	width: 68%;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+div#redirect-section a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+div#redirect-section a:hover{
+	background-color: skyblue;
+}
+p#redirect-section-caption {
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 15%;
+}
+
+div#right {
+	margin-left:260px;
+	font-family: Sans-serif;
+}
+p#page-identifier-caption {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-left: 33px;
+	margin-bottom: 35px;
+}
+
+div#packages{
+	width: 80%;
+	margin: 0 auto;
+}
+div.package-header{
+	background: linear-gradient(to bottom right, cadetblue, skyblue);
+	padding: 15px;
+	border-radius: 10px;
+}
+div.package-header:hover{
+	cursor: pointer;
+}
+div.package-header p{
+	margin: 0;
+	font-size: 1.5em;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.products {
+	display: none;
+}
+
+table.products-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table.products-table td, th{
+	border: 1px solid black;
+	padding: 15px;
+	text-align: left;
+}
+table.products-table tr:nth-child(odd) {
+	background-color: white;
+}
+
+/* SIDEBAR START */
+table#nav {
+    margin: 30px 10px 10px 20px;
+}
+
+td.ops {
+    font-family: Sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 3px;
+
+}
+
+td.icon {
+    padding: 8px;
+}
+
+td.icon img {
+    height: 40px;
+}
+
+div#left {
+	width: 250px;
+	height: 100vh;
+	background-color: cadetblue;
+	box-shadow: 8px 5px 5px #888888;
+	position: fixed;
+}
+
+
+table#nav tr:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
+/* SIDEBAR END */

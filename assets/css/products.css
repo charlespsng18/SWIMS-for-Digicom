@@ -1,0 +1,171 @@
+table#list-product {
+    margin: 25px;
+    border-collapse: collapse;
+    font-family: Sans-serif;
+    border: 1px solid black;
+}
+
+#dummydiv {
+    visibility: hidden;
+}
+
+table#list-product th {
+    width: 300px;
+    text-align: left;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}
+
+table#list-product td {
+    padding: 15px;
+}
+
+img.user-actions {
+    height: 20px;
+}
+
+div#add-product {
+    margin-right: 210px;
+    float: right;
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+
+td#addsymbol {
+    font-size: 1em;
+    font-family: Sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+table#list-product tr:hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+table#list-product th:hover {
+    background-color: cadetblue;
+}
+
+table#list-product tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table#list-product tr:nth-child(even):hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+div#add-product-form {
+    background-color: slateblue;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    height: 630px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div#add-product-form p.poslabel {
+    margin: 5px;
+    margin-left: 15px;
+    font-family: Sans-serif;
+    font-weight: 600;
+}
+
+div#add-product-form h1 {
+    font-family: Sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+div#add-product-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 5px 5px 10px;
+    font-size: 1em;
+    width: 315px;
+}
+
+select {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 325px;
+}
+
+div#add-product-form div {
+    margin: 10px;
+}
+
+button#add-button {
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+button#add-button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+p.error {
+    color: darkred;
+    text-align: center;
+    font-weight: 600;
+    display: none;
+    font-family: Sans-serif;
+}
+
+div.overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: none;
+}
+
+textarea#product-description {
+    font-family: Sans-serif;
+    padding: 5px;
+    margin: 5px 5px 5px 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 313px;
+    font-size: 1em;
+}
+
+span.close {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: Sans-serif;
+    font-size: 2em;
+}
+
+
+div#add-product img {
+    height: 30px;
+}
+
+#add-product-form img {
+    margin-left: 30px;
+}
+
+.invi {
+    display: none;
+}

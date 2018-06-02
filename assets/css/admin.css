@@ -1,0 +1,65 @@
+* {
+    outline: none;
+}
+
+body {
+    background-color: #d7dce5;
+}
+
+h2#greet {
+    font-family: Sans-serif;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+div.cntr {
+    text-align: center;
+}
+
+div#container1 {
+    margin-top: 50px;
+}
+div.main-menu-options {
+    height: 200px;
+    width: 250px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 13px 5px #888888;
+}
+
+img.icons {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h2.option-name {
+    position: relative;
+    top: -105px;
+    visibility: hidden;
+    font-family: Sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+
+img#logout {
+    position: absolute;
+    cursor: pointer;
+    height: 30px;
+    right: 20px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

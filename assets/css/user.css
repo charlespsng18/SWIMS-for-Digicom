@@ -1,0 +1,248 @@
+* {
+    outline: none;
+}
+
+body {
+    background-color: #d7dce5;
+    margin: 0;
+}
+
+table#list-user th{
+    height: 30px;
+    width: 120px;
+    text-align: left;
+    background-color: cadetblue;
+}
+
+table#list-user {
+    border-collapse: collapse;
+    font-family: Sans-serif;
+    border: 1px solid black;
+}
+
+table#list-user th, table#list-user td {
+    padding: 15px;
+}
+
+div#users-table {
+    margin: 20px;
+}
+
+table#list-user tr:hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+table#list-user th:hover {
+    background-color: cadetblue;
+}
+
+table#list-user tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table#list-user tr:nth-child(even):hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+img.user-actions {
+    height: 20px;
+}
+
+div#add-user {
+    margin-right: 210px;
+    float: right;
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+
+td#addsymbol {
+    font-size: 1em;
+    font-family: Sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+div#add-user img {
+    height: 30px;
+}
+
+div#add-user-form {
+    background-color: #2980B9;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div#add-user-form p.poslabel {
+    margin: 5px;
+    margin-left: 10px;
+    font-family: Sans-serif;
+    font-weight: 600;
+}
+
+div#add-user-form h1 {
+    font-family: Sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+div#add-user-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    width: 315px;
+}
+
+select#pos, #epos {
+    margin-left: 10px;
+    font-size: 1em;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 325px;
+}
+
+div#add-user-form div {
+    margin: 10px;
+}
+
+button#add-button {
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+p.error {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    display: none;
+    font-family: Sans-serif;
+}
+
+div.overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: none;
+}
+
+span.close {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: Sans-serif;
+    font-size: 2em;
+}
+
+div#delete-user-confirm {
+    background-color: #2980B9;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    height: 130px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div#delete-user-confirm p {
+    font-family: Sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+div#delete-user-confirm button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    font-family: Sans-serif;
+    font-weight: 800;
+}
+
+p.msg {
+    margin-bottom: -10px;
+    color: red;
+    font-family: Sans-serif;
+    font-size: 1.2em;
+    display: none;
+}
+
+div#edit-user-form {
+    background-color: #a3a375;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px #888888;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div#edit-user-form p.poslabel {
+    margin: 5px;
+    margin-left: 10px;
+    font-family: Sans-serif;
+    font-weight: 600;
+}
+
+div#edit-user-form h1 {
+    font-family: Sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+div#edit-user-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    width: 315px;
+}
+
+
+div#edit-user-form div {
+    margin: 10px;
+}
+
+button#edit-button {
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+input#eusername {
+    background-color: #7a7a52;
+}
