@@ -1,0 +1,68 @@
+a{
+	margin-top:0px;
+}
+div#warehouse{
+	text-align:right;
+}
+img{
+	height: 130px;
+	width: 50%;
+}
+#logoandinfo{
+	text-align: center;
+}
+span#pulloutslip{
+	font-weight: 900;
+}
+div#pulloutnumber{
+	font-size: 30px;
+	margin-left: 80%
+}
+span#ponumber{
+	color: red;
+}
+div#recandadd{
+	position:absolute;
+}
+div#date{
+	position:relative;
+	margin-left: 70%
+}
+table{
+	width:100%;
+	border-style: solid;
+}
+tr#tableheader{
+	text-align:center;
+}
+td#qty{
+	width:15%;
+}
+div#content{
+	margin-left:5px
+}
+div#conditionandconfirm{
+	position:absolute;
+}
+div#approveandreceive{
+	position:relative;
+	margin-left:60%;
+}
+div#approve{
+	margin-top:20px;
+	text-align:center;
+}
+div#receive{
+	margin-top:20px;
+	text-align:center;
+}
+div#customer{
+	text-align:center;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}

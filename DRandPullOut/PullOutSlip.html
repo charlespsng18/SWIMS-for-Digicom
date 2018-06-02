@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<link rel = "stylesheet"
+			type = "text/css"
+			href = "PullOutSlipCSS.css" />
+		
+	</head>
+	<body>
+		<a href="" id="backlink">Go back</a><br>
+		<button onclick="printFunction()" id="printButton">Print this receipt</button>
+		<div id="warehouse">
+			Warehouse No. 123
+		</div>
+		<div id="logoandinfo">
+			<img src="applet_splash.png">
+			<hr>
+			Digital Network Communication & Computers Inc. <br>
+			<span id="pulloutslip">PULL-OUT SLIP <br> </span>
+		</div>
+		<div id="pulloutnumber">
+			No. <span id="ponumber">12345 </span><br>
+		</div>
+		<div id="recandadd">
+			RECEIVED FROM______________________________________________________<br>
+			ADDRESS ___________________________________________________________________________________
+		</div>
+		<div id="date">
+			Date_______________________
+		</div>
+		<br>
+		<br>
+		<div>
+			<table border=1>
+				<tr id="tableheader">
+					<td id="qty"> Quantity </td>
+					<td> Description </td>
+					<td> Reference </td>
+				</tr>
+				<tr>
+					<td> 3 </td>
+					<td> CCTV </td>
+					<td> Ref. </td>
+				</tr>
+				<tr>
+					<td> 3 </td>
+					<td> Hardrive </td>
+					<td> Ref. </td>
+				</tr><tr>
+					<td> 3 </td>
+					<td> NVIDIA GTX </td>
+					<td> Ref. </td>
+				</tr><tr>
+					<td> 3 </td>
+					<td> CPU </td>
+					<td> Ref. </td>
+				</tr><tr>
+					<td> 3 </td>
+					<td> Gaming Mouse </td>
+					<td> Ref. </td>
+				</tr><tr>
+					<td> 3 </td>
+					<td> Gaming Keyboard </td>
+					<td> Ref. </td>
+				</tr>
+
+			</table>
+		</div>
+		<div id="conditionandconfirm">
+			Condition of Item/s  <br>
+			__________________________________________<br>
+			__________________________________________<br>
+			__________________________________________<br>
+			<br>
+			Confirmed by: 
+			<div id="customer">
+			<br>________________________
+			<br>Customer
+			</div>
+		</div>
+		<div id="approveandreceive">
+			<div id="approve">
+			_____________________________________<br>
+			Approved by:  <br>
+			</div>
+			<div id="receive">
+			_____________________________________<br>
+			Received by: 
+			</div>
+		</div>
+		
+		<script>
+		function printFunction() {
+			var printbutton = document.getElementById('printButton');
+			var backlink = document.getElementById('backlink');
+			printbutton.style.display = 'none';
+			backlink.style.display = 'none';
+			window.print();
+			printbutton.style.display = 'block';
+			backlink.style.display = 'block';
+		}
+		</script>
+	</body>
+</html>

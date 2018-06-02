@@ -1,0 +1,143 @@
+<html>
+	<head>
+		<link rel = "stylesheet"
+			type = "text/css"
+			href = "DeliveryReciptCSS.css" />
+	</head>
+	<body>
+		<a href="" id="backlink">Go back</a><br>
+		<button onclick="printFunction()" id="printButton">Print this receipt</button>
+		<div id="logoandinfo">
+			<img src="applet_splash.png">
+			<hr>
+			Digital Network Communication & Computers Inc. <br>
+			Main Office<br>
+			30/F Antel Global Corporate Center, Julia Vargas Ave., and Jade Drive<br>
+			Ortigas Center, Brgy. San Antonio, Pasig City<br>
+			Tel. Nos: 12346789<br>
+			TIN: 123-456-789<br>
+		</div>
+		<div id="shipto">
+			<table border=1>
+				<tr>
+					<td>Ship To:</td>
+				</tr>
+				<tr>
+					<td>Address:__________________________<br>TIN:<br>Business Style/Name_________________________</td>
+				</tr>
+			</table>
+		</div>
+		<div id="deliveryInfo">
+			<div id="deliverytitle"> DELIVERY RECEIPT </div>
+			<table border=1 id="deliverydatetermsdr">
+				<tr>
+					<td>Date</td>
+					<td>Terms</td>
+					<td>DR#</td>
+				</tr>
+				<tr>
+					<td>09/11/9110</td>
+					<td>blah</td>
+					<td>12345</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<br>
+		<table id="poinvoiceshipproject" border=1>
+			<tr>
+				<td class="small">P.O. No.</td>
+				<td class="small">Invoice #</td>
+				<td class="small">Ship</td>
+				<td class="small">Via</td>
+				<td>Project</td>
+			</tr>
+			<tr>
+				<td>12629</td>
+				<td>1262943</td>
+				<td>Blizzard</td>
+				<td>Antivision</td>
+				<td>Project DOTA</td>
+			</tr>
+		</table>
+		<table id="deliveryitems" frame=box>
+			<tr>
+				<td class="smaller">Qty.</td>
+				<td class="smaller">Unit</td>
+				<td>ARTICLES</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>pcs</td>
+				<td>NVIDIA GTX1000</td>
+			</tr>
+		</table>
+		<div id="signatures">
+		ISSUED BY:__________________________<br>
+		APPROVED BY:________________________<br>
+		RELEASED BY:________________________<br>
+		DELIVERED BY:_______________________<br>
+		</div>
+		<div id="receivepart">
+			Received the above articles in order and condition.<br><br>
+			By:_________________________________<br>
+			Signature Over Printed Name
+		</div>
+		<script>
+		function printFunction() {
+			var printbutton = document.getElementById('printButton');
+			var backlink = document.getElementById('backlink');
+			printbutton.style.display = 'none';
+			backlink.style.display = 'none';
+			window.print();
+			printbutton.style.display = 'block';
+			backlink.style.display = 'block';
+		}
+		</script>
+	</body>
+</html>
